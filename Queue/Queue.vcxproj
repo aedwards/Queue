@@ -76,6 +76,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="QueueExceptions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayQueueTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
